@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+body {
+    padding: 0px 100px 0px 100px ;
+    background-image: url(./source/jordan.png);
+    background-repeat: no-repeat;
+    background-position: top ;
+    
+   
+}
+
+.logo{
+    width: 150px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content__text {
+    width: 500px;
+    align-items: center;
+    
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 4px 4px 2px rgba(39,25,25,0.6);
+    padding-top: 10px;
+
+}
+
+span {
+    color: #b01;
+    font-size: 80px;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    width: 130px;
+    padding: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 50px;
+    
+}
+
+.box__img{
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+
+}
+
+.nikeair {
+    width: 600px;
+    
+}
+
+.box__rodape {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.img__rodape {
+    width: 130px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin: 10px;
+}
+
+.img__rodape:hover {
+    transform:translateY(-25px) scale(1.2);    
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #b01;
+    top: 0;
+    left: 0;
+    clip-path: circle(700px at right 900px);
+    z-index: -1;
+}
