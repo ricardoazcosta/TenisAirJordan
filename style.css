@@ -123,3 +123,62 @@ button {
     clip-path: circle(600px at right 800px);
     z-index: -1;
 }
+
+
+/*--Responsivo--*/
+
+@media screen and (max-width:450px) {
+    .logo{
+        width: 100px;
+    }
+
+    .player {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 200px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .content__text {
+        display: flex;
+        margin: 30px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        width: auto;
+        height: auto;
+    }
+    
+    h2{
+        font-size: 25px;
+    }
+    span{
+        font-size: 40px;
+    }
+    .box__img{
+        margin-top: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nikeair{
+        width: 100%;
+        height: 100%;
+    }
+
+    .box__rodape {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .circulo{
+        clip-path: circle(300px at right 800px);
+    }
+}
+
