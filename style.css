@@ -9,12 +9,24 @@
 }
 
 body {
-    padding: 0px 100px 0px 100px ;
-    background-image: url(./source/jordan.png);
-    background-repeat: no-repeat;
-    background-position: top ;
-    
+    padding: 0px 50px 0px 50px ;
+    overflow: hidden;
    
+}
+
+.img__player {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.player {
+    position: absolute;
+    left: 450px;
+    top: 20px;
+    transition: opacity 2s ease-in-out;
+    height: 350px; 
+
 }
 
 .logo{
@@ -29,7 +41,7 @@ body {
 
 
 .content__text {
-    width: 500px;
+    width: 400px;
     align-items: center;
     
 }
@@ -70,7 +82,7 @@ button {
 }
 
 .box__img{
-    width: 500px;
+    width: auto;
     display: flex;
     justify-content: flex-start;
     margin-top: 150px;
@@ -79,6 +91,7 @@ button {
 
 .nikeair {
     width: 600px;
+    
     
 }
 
@@ -107,6 +120,6 @@ button {
     background-color: #b01;
     top: 0;
     left: 0;
-    clip-path: circle(700px at right 900px);
+    clip-path: circle(600px at right 800px);
     z-index: -1;
 }
